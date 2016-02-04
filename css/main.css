@@ -15,27 +15,22 @@ bottom: 30px;
 
 }
 /* lineas para separar texto del menu */
-.chicas{
-	  border-right:1px solid #737373;
-	   float: left;
 
-	
-}
 /* lineas para separar imagen del texto */
-li{
-
-    float: left;
-    border-right:1px solid #bbb;
+.lineascortas{
+	
+	width:90px; 
+    
+    
 }
-
-
 
 /*clases de menu*/
 .barra{
 	margin: auto;
 	width: 400px;
 	font-family: arial, helvetica;
-	padding-top: 20px;
+	padding: 20px;
+	top: 20px;
 
 }
 ul{
@@ -43,7 +38,13 @@ ul{
 
 }
 ul>li{
+	
 	float: left;
+	border-right:1px solid #737373;
+     display: block;
+    text-align: center;
+    padding: 8px  8px;
+   
 
 }
 
