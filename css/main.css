@@ -3,34 +3,39 @@
 	width: 700px;
 	margin: 0px auto;
 }
-/* lineas */
-hr{
+/* lineas largas del menu */
+.lineamenu{
+
 align:left ;
 width:100%; 
 size:100%; 
 color:#B0C4DE noshade;
 bottom: 30px;
 
+
 }
 /* lineas para separar texto del menu */
 .chicas{
-	border-left: thick solid #ff0000;
+	  border-right:1px solid #737373;
+	   float: left;
+
+	
 }
 /* lineas para separar imagen del texto */
-.lineascortas{
-	align:left ;
-	width:20%; 
-    size:40%; 
-    color:#B0C4DE noshade;
+li{
 
-    
+    float: left;
+    border-right:1px solid #bbb;
 }
+
+
 
 /*clases de menu*/
 .barra{
 	margin: auto;
 	width: 400px;
 	font-family: arial, helvetica;
+	padding-top: 20px;
 
 }
 ul{
@@ -52,43 +57,36 @@ ul>li{
 /*clases de galeria coders*/
 
 .galeria{
-	border-style: dotted;
-	border-radius: 25px;
-	width: 50%;
-	height: 50%;
-	background-color: #B0C4DE;
-	margin:auto;
+	
+	padding-top: 30px;
+	width: 120%;
+	height: 120%;
 
 	
 }
 
+	
+
+
  .imgaleria{
      
-	border-radius: 500px;
-	
-	box-shadow: 0 0 25px rgba(5, 7, 1, .8);
-  
-	height:150px;
-	width: 150px;
-	margin: 30px;
+	padding: 10px;
+
+	height:200px;
+	width: 200px;
+
 	-webkit-filter: sepia(1);
  }
 
 #lado{
 
     display: inline-block;
+    position: relative;
 }
 
 .nombres{
 	 font-size: 100%;
     font-style: italic;
     text-align: center;
-    color:#ffffff;
+    color:#737373;
  }
-/*linea debajo de  coder*/
-.lineaco{
-	align:left; 
-	width:10%;
-	size:15px; 
-	color:#737373 noshade;
-}
