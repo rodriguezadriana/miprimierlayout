@@ -10,11 +10,9 @@ align:left ;
 width:100%; 
 size:100%; 
 color:#B0C4DE noshade;
-bottom: 30px;
-
 
 }
-/* lineas para separar texto del menu */
+
 
 /* lineas para separar imagen del texto */
 .lineascortas{
@@ -28,22 +26,23 @@ bottom: 30px;
 .barra{
 	margin: auto;
 	width: 400px;
-	font-family: arial, helvetica;
-	padding: 20px;
-	top: 20px;
+	font-family: helvetica;
+	
+	
 
 }
 ul{
 	list-style: none;
 
 }
-ul>li{
+li{
 	
 	float: left;
 	border-right:1px solid #737373;
-     display: block;
+    display: block;
     text-align: center;
-    padding: 8px  8px;
+    padding: 10px  8px;
+    
    
 
 }
@@ -51,7 +50,7 @@ ul>li{
 /*clases de menu*/
 .parrafo1{
 	text-align: center;
-	font-family: arial, helvetica;
+	font-family: helvetica;
 	font-size: 20px;
 }
 
@@ -64,6 +63,12 @@ ul>li{
 	height: 120%;
 
 	
+}
+.nuestras{
+	
+	font-size: 30px;
+    font-style: helvetica;
+    color:#737373;
 }
 
 	
@@ -95,14 +100,71 @@ ul>li{
 
 
 /*clases de chica1*/
-img{
+
+ .chica1{
      
 	border-radius: 500px;
 	
-	box-shadow: 0 0 25px rgba(5, 7, 1, .8);
-  
-	height:150px;
-	width: 150px;
-	margin: 30px;
-	-webkit-filter: sepia(1);
- }
+	height:200px;
+	width: 200px;
+	position: absolute;
+	right: 580px;
+
+	
+
+}
+.nombre{
+	font-size: 50px;
+    font-style: helvetica;
+    color:#737373;
+    position: relative;
+    top: 200px;
+    left: 150px;
+
+}
+
+.historia{
+	text-align: center;
+	font-family: arial, helvetica;
+	font-size: 20px;
+	top: 200px;
+	 position: relative;
+	bottom: 30px; 
+}
+
+.habilidades{
+	padding-top: 200px;
+	font-size: 30px;
+    font-style: helvetica;
+    color:#737373;
+    }
+
+.portafolio{
+	padding-top: 400px;
+	font-size: 30px;
+    font-style: helvetica;
+    color:#737373;
+    }
+.barras{
+	height: 40px;
+    background-color:  #737373;
+    
+    font-size: 20px ;
+    font-style: helvetica;
+    color:#ffffff;
+    margin-bottom: 40px;
+
+}
+
+.cantidad1{
+ width: 700px;
+}
+
+.cantidad2{
+ width: 500px;
+}
+
+.cantidad3{
+ width: 300px;
+}
+
